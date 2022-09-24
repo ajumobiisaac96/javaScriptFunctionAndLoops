@@ -10,9 +10,6 @@ function myFunction(){
             if (animals[i] === combinedArray[j]){
                 console.log("ANIMALS =" + animals)
             }
-            else{
-                console.log("ANIMALS : No data found")
-            }
         }
     }
     for (let i = 0; i < 1; i++){
@@ -20,18 +17,12 @@ function myFunction(){
             if (names[i] === combinedArray[j]){
                 console.log("NAMES =" + names)
             }
-            else{
-                console.log("ANIMALS : No data found")
-            }
         }
     }
     for (let i = 0; i < 1; i++){
         for (let j = 0; j < combinedArray.length; j++){
             if (fruits[i] === combinedArray[j]){
                 console.log("FRUITS =" + fruits)
-            }
-            else{
-                console.log("ANIMALS : No data found")
             }
         }
     }
